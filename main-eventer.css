@@ -1,3 +1,63 @@
+@font-face {
+    font-family: 'Comfortaa Regular';
+    src: url('Fonts/Comfortaa-Regular.ttf')
+    format('truetype');
+}
+
+body * {
+    font-family: 'Comfortaa Regular';
+}
+.ourTeam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 article {
     display: flex;
+    justify-content: space-around;
 }
+
+/* .manager p {
+    max-width: 60%;
+} */
+
+
+
+.leftManagers, .rightManagers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin: 5%;
+}
+
+.manager {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.manager img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.manager .manaDescription {
+    margin-left: 3%;
+    max-height: 80%;
+    background-size: contain;
+
+}
+
+.manager .manaDescription h5{
+    background-color:#C34141;
+    width: 75px;
+    color: white;
+    text-align: center;
+}
+
+/* .manager .manaDescription p{
+    max-width: 400px;
+} */
