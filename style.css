@@ -1,0 +1,41 @@
+/* @font-face {
+    font-family: 'Comfortaa Regular';
+    src: url('https://github.com/JeanFabry/main-eventer/blob/master/Fonts/Comfortaa-Regular.ttf')
+    format('truetype');
+}
+
+body * {
+    font-family: 'Comfortaa Regular';
+} */
+
+
+
+.conteneur{
+    /* background-image: url("header_Background.jpg");   */
+    height: 485px;
+    /* filter: brightness(.16);   */
+    background-image:
+    linear-gradient(black, rgba(0, 0, 0, 0.63)),
+    url("header_Background.jpg");
+  background-size: cover;
+  background-blend-mode: saturation;
+} 
+
+
+.nav{
+    
+    font-size: 20px;
+    margin-left: 750px;
+    
+}
+a {
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+    
+  
+
