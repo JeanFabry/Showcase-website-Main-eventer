@@ -7,7 +7,7 @@
 
 ## What is it?
 
-This exercise consists of creating a Web page for the company "Main Eventer", based on a few pictures only :)
+This exercise consists of creating a Web page for the company "Main Eventer", based on a few pictures only.
 
 
 ## What's the purpose of this?
