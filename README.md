@@ -20,7 +20,7 @@ The goal of this exercise was to learn to work as a team and handle the needs of
 
 ## Preview
 
-![Preview]()
+![Preview](https://raw.githubusercontent.com/JeanFabry/main-eventer/master/Images/preview%20website.png)
 
 
 *Made with Becode*
