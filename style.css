@@ -1,0 +1,55 @@
+/* IMPORT FONT */
+@font-face {
+    font-family: 'Comfortaa Regular';
+    src: url('assets/fonts/Comfortaa-Regular.ttf')
+    format('truetype');
+}
+
+/*CONTAINER + CARDS */
+
+.container_ourEvents_cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;  
+}
+
+.container_ourEvents_cards .card {
+    display: flex;
+    text-align: center;
+    margin: 5%;
+    border-radius: 0;
+}
+
+.ourEvents_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.card-subtitle {
+    margin: 1% 0;
+}
+
+.ourEvents h2  {
+    margin: auto 15%;
+}
+
+/* TITRES POUR TOUTE LA PAGE */ 
+
+h2  {
+    font-family: 'Comfortaa Regular';
+    font-weight: bold;  
+    font-size: 50px;
+}
+
+h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; 
+    width: 80%; 
+    padding-top: 5px; 
+    border-bottom: 3px solid #b20c0d;    
+}
