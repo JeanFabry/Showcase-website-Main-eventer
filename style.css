@@ -81,7 +81,37 @@ a {
     justify-content: center;
     margin-top: 8%;
 }
+.footer{
+    margin-top: 505px;
+    height: 250px;
+    background-image: url("swirl_pattern.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.text{
+    color: black;
+    height: 70px;
+    font-size: 40px;
     
+    
+}
+.reseau{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 400px;
+    
+    
+    
+}   
+img{
+    height: 50px;
+    width: 50px;
+}
   
 
 
