@@ -1,4 +1,4 @@
-/* @font-face {
+ @font-face {
     font-family: 'Comfortaa Regular';
     src: url('https://github.com/JeanFabry/main-eventer/blob/master/Fonts/Comfortaa-Regular.ttf')
     format('truetype');
@@ -6,7 +6,52 @@
 
 body * {
     font-family: 'Comfortaa Regular';
-} */
+} 
+
+.carre{
+    position: absolute;
+    border: solid 3px white;
+    width: 150px;
+    margin-top: 1%;
+    margin-left: 21%;
+    background-color: #AF0102;
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.descente{
+    margin-top: 7%;
+}
+.center{
+    display: flex;
+    text-align: justify;
+}
+img{
+    margin-left: 25%;
+}
+.texte{
+    max-width: 25%;
+    padding-top: 25px;
+    margin-left: 40px;
+}
+.paragraphe{
+    padding-top: 35%;
+    color: #A0A0A0;
+}
+#who{
+    padding-top: 5%;
+    border-bottom: 3px solid #AF0102;
+}
+.text2{
+    color: #A0A0A0;
+    margin-left: 25%;
+    margin-right: 30%;
+    text-align: justify;
+    margin-top: 25px;
+
+
 
 
 
@@ -68,4 +113,60 @@ img{
     width: 50px;
 }
   
+
+
+
+/*CONTAINER + CARDS */
+
+.container_ourEvents_cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;  
+}
+
+.container_ourEvents_cards .card {
+    display: flex;
+    text-align: center;
+    margin: 5%;
+    border-radius: 0;
+}
+
+.ourEvents_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.card-subtitle {
+    margin: 1% 0;
+}
+
+.card-header {
+    background-color: #b20c0d;
+}
+
+.ourEvents h2  {
+    margin: auto 15%;
+}
+
+/* TITRES POUR TOUTE LA PAGE */ 
+
+h2  {
+    font-family: 'Comfortaa Regular';
+    font-weight: bold;  
+    font-size: 50px;
+}
+
+h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; 
+    width: 80%; 
+    padding-top: 5px; 
+    border-bottom: 3px solid #b20c0d;    
+
+}
 
