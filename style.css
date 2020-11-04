@@ -31,8 +31,8 @@
  }
 
  .center img {
-      margin-left: 25%; 
- } 
+     margin-left: 25%;
+ }
 
  .texte {
      max-width: 25%;
@@ -62,18 +62,18 @@
 
 
 
- .conteneur{
-    background-image: url("header_Background.jpg");   
+ .conteneur {
+     background-image: url("header_Background.jpg");
      min-height: 500px;
-     background-repeat: no-repeat; 
+     background-repeat: no-repeat;
      background-size: cover;
-    /*filter: brightness(.16);   
+     /*filter: brightness(.16);   
      background-image:
     linear-gradient(black, rgba(0, 0, 0, 0.63)),
     url("header_Background.jpg");
   background-size: cover;
   background-blend-mode: saturation;  */
-}  
+ }
 
 
  .nav {
@@ -85,7 +85,7 @@
  }
 
 
-.nav a {
+ .nav a {
      color: white;
  }
 
@@ -97,7 +97,7 @@
  }
 
  .footer {
-     margin-top: 50px; 
+     margin-top: 50px;
      height: 250px;
      background-image: url("swirl_pattern.png");
      display: flex;
@@ -126,7 +126,7 @@
 
  }
 
- .reseau  img {
+ .reseau img {
      height: 50px;
      width: 50px;
  }
@@ -202,8 +202,7 @@
      flex-direction: column;
      justify-content: space-between;
      align-items: center;
-
-
+     margin-top: 2%;
  }
 
  form {
@@ -212,6 +211,7 @@
      flex-direction: column;
      justify-content: space-between;
      margin-top: 3%;
+     font-size: 22px;
  }
 
  form .names {
@@ -227,11 +227,11 @@
 
  .details .form-length,
  .form-group .form-length {
-     border-color: #AF0304;
+    border: 1px solid #AF0304;
      border-radius: 20px;
      display: list-item;
      height: 35px;
- }
+ } 
 
  .form-group .form-control {
      border-color: #AF0304;
@@ -245,7 +245,8 @@
  }
 
 
- button {
+button.roundCorners {
+    border-radius: 15px;
      background-color: white;
      border: 2px solid #AF0304;
      color: #AF0304;
@@ -256,60 +257,68 @@
      font-size: 20px;
      cursor: pointer;
      width: 150px;
-     border-radius: 12px;
  }
 
  button:hover {
      background-color: #AF0304;
      color: white;
+     border-radius: 15px;
  }
- .ourTeam {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-article {
-    display: flex;
-    justify-content: space-around;
-}
 
-/* .manager p {
+ .ourTeam {
+     margin-top: 3%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ article.team {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin-left: 7%;
+     margin-right: 7%;
+ }
+
+ /* .manager p {
     max-width: 60%;
 } */
 
 
+ .leftManagers,
+ .rightManagers {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-content: center;
+     margin: 5%;
+ }
 
-.leftManagers, .rightManagers {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
-    margin: 5%;
-}
+ .manager {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: auto;
+     margin-bottom: 5%;
+ }
 
-.manager {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
-    margin-bottom: 5%;
-}
+ .manager img {
+     border-radius: 50%;
+     max-width: 150px;
+ }
 
-.manager img {
-    border-radius: 50%;
-    width: 300px;
-}
+ .manager .manaDescription {
+     margin-left: 3%;
+     max-height: 80%;
+     background-size: contain;
+     font-size: 14px;
 
-.manager .manaDescription {
-    margin-left: 3%;
-    max-height: 80%;
-    background-size: contain;
+ }
 
-}
+ .manager .manaDescription h5 {
+     background-color: #C34141;
+     width: 75px;
+     color: white;
+     text-align: center;
+ }
 
-.manager .manaDescription h5{
-    background-color:#C34141;
-    width: 75px;
-    color: white;
-    text-align: center;
-}
