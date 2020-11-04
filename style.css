@@ -162,10 +162,12 @@
      margin: 1% 0;
  }
 
- .card-header {
+ .bg-cardheader {
      background-color: #b20c0d;
  }
-
+.text-cardheader {
+ color: #fff;
+}
  .ourEvents h2 {
      margin: auto 15%;
  }
