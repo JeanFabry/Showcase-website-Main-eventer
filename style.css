@@ -10,7 +10,7 @@
  .carre {
      position: absolute;
      border: solid 3px white;
-     width: 150px;
+     width: 175px;
      margin-top: 1%;
      margin-left: 21%;
      background-color: #AF0102;
@@ -162,10 +162,17 @@
      margin: 1% 0;
  }
 
- .card-header {
-     background-color: #b20c0d;
- }
+ .card-headers {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #b20c0d;
+  border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
 
+ 
+.text-cardheader {
+ color: #fff;
+}
  .ourEvents h2 {
      margin: auto 15%;
  }
@@ -226,7 +233,7 @@
      border-radius: 20px;
      display: list-item;
      height: 35px;
- }
+ } 
 
  .form-group .form-control {
      border-color: #AF0304;
@@ -280,7 +287,6 @@ button.roundCorners {
 } */
 
 
-
  .leftManagers,
  .rightManagers {
      display: flex;
@@ -317,3 +323,4 @@ button.roundCorners {
      color: white;
      text-align: center;
  }
+
