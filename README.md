@@ -1,3 +1,4 @@
+
 # BeCode GIT Exercise **'Main Eventer Web Page'**
 - Team project made by [Agnès KABONGO](https://github.com/agkabongo), [Rachid ABDELLAOUI](https://github.com/rachidcode), [Thomas BOUR](https://github.com/ThomasBour) and [Jean FABRY](https://github.com/JeanFabry)
 - Date : 03/10/2020 to 05/10/2020
@@ -24,3 +25,4 @@ The goal of this exercise was to learn to work as a team and handle the needs of
 
 
 *Made with Becode*
+
