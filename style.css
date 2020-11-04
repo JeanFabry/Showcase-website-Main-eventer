@@ -1,172 +1,303 @@
  @font-face {
-    font-family: 'Comfortaa Regular';
-    src: url('https://github.com/JeanFabry/main-eventer/blob/master/Fonts/Comfortaa-Regular.ttf')
-    format('truetype');
-}
+     font-family: 'Comfortaa Regular';
+     src: url('https://github.com/JeanFabry/main-eventer/blob/master/Fonts/Comfortaa-Regular.ttf') format('truetype');
+ }
 
-body * {
-    font-family: 'Comfortaa Regular';
-} 
+ body * {
+     font-family: 'Comfortaa Regular';
+ }
 
-.carre{
-    position: absolute;
-    border: solid 3px white;
-    width: 150px;
-    margin-top: 1%;
-    margin-left: 21%;
-    background-color: #AF0102;
-    color: white;
-    font-size: 15px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-}
-.descente{
-    margin-top: 7%;
-}
-.center{
-    display: flex;
-    text-align: justify;
-}
-img{
-    margin-left: 25%;
-}
-.texte{
-    max-width: 25%;
-    padding-top: 25px;
-    margin-left: 40px;
-}
-.paragraphe{
-    padding-top: 35%;
-    color: #A0A0A0;
-}
-#who{
-    padding-top: 5%;
-    border-bottom: 3px solid #AF0102;
-}
-.text2{
-    color: #A0A0A0;
-    margin-left: 25%;
-    margin-right: 30%;
-    text-align: justify;
-    margin-top: 25px;
+ .carre {
+     position: absolute;
+     border: solid 3px white;
+     width: 150px;
+     margin-top: 1%;
+     margin-left: 21%;
+     background-color: #AF0102;
+     color: white;
+     font-size: 15px;
+     padding-top: 5px;
+     padding-left: 5px;
+     padding-bottom: 5px;
+ }
+
+ .descente {
+     margin-top: 7%;
+ }
+
+ .center {
+     display: flex;
+     text-align: justify;
+ }
+
+ .center img {
+      margin-left: 25%; 
+ } 
+
+ .texte {
+     max-width: 25%;
+     padding-top: 25px;
+     margin-left: 40px;
+ }
+
+ .paragraphe {
+     padding-top: 35%;
+     color: #A0A0A0;
+ }
+
+ #who {
+     padding-top: 5%;
+     border-bottom: 3px solid #AF0102;
+ }
+
+ .text2 {
+     color: #A0A0A0;
+     margin-left: 25%;
+     margin-right: 30%;
+     text-align: justify;
+     margin-top: 25px;
+ }
 
 
 
 
 
-.conteneur{
-    /* background-image: url("header_Background.jpg");   */
-    height: 485px;
-    /* filter: brightness(.16);   */
-    background-image:
+ .conteneur{
+    background-image: url("header_Background.jpg");   
+     height: 485px; 
+    /*filter: brightness(.16);   
+     background-image:
     linear-gradient(black, rgba(0, 0, 0, 0.63)),
     url("header_Background.jpg");
   background-size: cover;
-  background-blend-mode: saturation;
-} 
+  background-blend-mode: saturation;  */
+}  
 
 
-.nav{
-    
-    font-size: 20px;
-    margin-left: 750px;
-    
-}
-a {
-    color: white;
-}
-.logo{
+ .nav {
+     font-size: 20px;
+     margin-left: 750px;
+ }
+
+ a {
+     color: white;
+ }
+
+ .logo {
+     display: flex;
+     justify-content: center;
+     margin-top: 8%;
+ }
+
+ .footer {
+     margin-top: 50px; 
+     height: 250px;
+     background-image: url("swirl_pattern.png");
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+ }
+
+ .text {
+     color: black;
+     height: 70px;
+     font-size: 40px;
+
+
+ }
+
+ .reseau {
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between;
+     height: 60px;
+     width: 400px;
+
+
+
+ }
+
+ .reseau  img {
+     height: 50px;
+     width: 50px;
+ }
+
+
+
+
+ /*CONTAINER + CARDS */
+
+ .container_ourEvents_cards {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     height: 10%;
+ }
+
+ .container_ourEvents_cards .card {
+     display: flex;
+     text-align: center;
+     margin: 5%;
+     border-radius: 0;
+ }
+
+ .ourEvents_title {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin-right: 25px;
+ }
+
+ .card-subtitle {
+     margin: 1% 0;
+ }
+
+ .card-header {
+     background-color: #b20c0d;
+ }
+
+ .ourEvents h2 {
+     margin: auto 15%;
+ }
+
+ /* TITRES POUR TOUTE LA PAGE */
+
+ h2 {
+     font-family: 'Comfortaa Regular';
+     font-weight: bold;
+     font-size: 50px;
+ }
+
+ h2:after {
+     content: "";
+     /* This is necessary for the pseudo element to work. */
+     display: block;
+     /* This will put the pseudo element on its own line. */
+     margin: 0 auto;
+     width: 80%;
+     padding-top: 5px;
+     border-bottom: 3px solid #b20c0d;
+
+ }
+
+
+
+ .form {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+
+
+ }
+
+ form {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin-top: 3%;
+ }
+
+ form .names {
+     display: flex;
+     justify-content: space-between;
+     /* flex-wrap: wrap; */
+ }
+
+
+ .names .details {
+     width: 100%;
+ }
+
+ .details .form-length,
+ .form-group .form-length {
+     border-color: #AF0304;
+     border-radius: 20px;
+     display: list-item;
+     height: 35px;
+ }
+
+ .form-group .form-control {
+     border-color: #AF0304;
+     border-radius: 20px;
+     display: list-item;
+     height: 200px;
+ }
+
+ .form .form-group {
+     margin-top: 5%;
+ }
+
+
+ button {
+     background-color: white;
+     border: 2px solid #AF0304;
+     color: #AF0304;
+     padding: 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     cursor: pointer;
+     width: 150px;
+     border-radius: 12px;
+ }
+
+ button:hover {
+     background-color: #AF0304;
+     color: white;
+ }
+ .ourTeam {
     display: flex;
-    justify-content: center;
-    margin-top: 8%;
-}
-.footer{
-    margin-top: 505px;
-    height: 250px;
-    background-image: url("swirl_pattern.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-  
+    align-items: center;
 }
-.text{
-    color: black;
-    height: 70px;
-    font-size: 40px;
-    
-    
+article {
+    display: flex;
+    justify-content: space-around;
 }
-.reseau{
-    margin-top: 20px;
+
+/* .manager p {
+    max-width: 60%;
+} */
+
+
+
+.leftManagers, .rightManagers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin: 5%;
+}
+
+.manager {
     display: flex;
     justify-content: space-between;
-    height: 60px;
-    width: 400px;
-    
-    
-    
-}   
-img{
-    height: 50px;
-    width: 50px;
-}
-  
-
-
-
-/*CONTAINER + CARDS */
-
-.container_ourEvents_cards {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10%;  
-}
-
-.container_ourEvents_cards .card {
-    display: flex;
-    text-align: center;
-    margin: 5%;
-    border-radius: 0;
-}
-
-.ourEvents_title{
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-right: 25px;
+    height: auto;
+    margin-bottom: 5%;
 }
 
-.card-subtitle {
-    margin: 1% 0;
+.manager img {
+    border-radius: 50%;
+    width: 300px;
 }
 
-.card-header {
-    background-color: #b20c0d;
-}
-
-.ourEvents h2  {
-    margin: auto 15%;
-}
-
-/* TITRES POUR TOUTE LA PAGE */ 
-
-h2  {
-    font-family: 'Comfortaa Regular';
-    font-weight: bold;  
-    font-size: 50px;
-}
-
-h2:after {
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; 
-    width: 80%; 
-    padding-top: 5px; 
-    border-bottom: 3px solid #b20c0d;    
+.manager .manaDescription {
+    margin-left: 3%;
+    max-height: 80%;
+    background-size: contain;
 
 }
 
+.manager .manaDescription h5{
+    background-color:#C34141;
+    width: 75px;
+    color: white;
+    text-align: center;
+}
