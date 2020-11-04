@@ -1,6 +1,6 @@
  @font-face {
      font-family: 'Comfortaa Regular';
-     src: url('https://github.com/JeanFabry/main-eventer/blob/master/Fonts/Comfortaa-Regular.ttf') format('truetype');
+     src: url('/Fonts/Comfortaa-Regular.ttf') format('truetype');
  }
 
  body * {
@@ -64,7 +64,9 @@
 
  .conteneur{
     background-image: url("header_Background.jpg");   
-     height: 485px; 
+     min-height: 500px;
+     background-repeat: no-repeat; 
+     background-size: cover;
     /*filter: brightness(.16);   
      background-image:
     linear-gradient(black, rgba(0, 0, 0, 0.63)),
@@ -76,16 +78,21 @@
 
  .nav {
      font-size: 20px;
-     margin-left: 750px;
+     margin-right: auto;
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 10%;
  }
 
- a {
+
+.nav a {
      color: white;
  }
 
  .logo {
      display: flex;
      justify-content: center;
+     align-items: center;
      margin-top: 8%;
  }
 
