@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Comfortaa Regular';
+    src: url('Fonts/Comfortaa-Regular.ttf')
+    format('truetype');
+}
+
+body * {
+    font-family: 'Comfortaa Regular';
+    font-size: 20px;
+}
+
+.form {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+form {
+    width:50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+form .names{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+
+.names .details {
+    width:100%;
+}
+
+.details .form-length, .form-group .form-length{
+    border-color: #AF0304;
+    border-radius: 20px;
+    display: list-item;
+    height:35px;
+} 
+
+.form-group .form-control {
+    border-color: #AF0304;
+    border-radius: 20px;
+    display: list-item;
+    height: 200px;  
+}
+
+.form .form-group{
+    margin-top: 5%;
+}
+
+
+button {
+    background-color: white;
+    border: 2px solid #AF0304;
+    color: #AF0304;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 12px;
+  }
+
+  button:hover{
+    background-color: #AF0304;
+    color: white;
+  }
