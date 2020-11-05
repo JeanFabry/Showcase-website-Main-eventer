@@ -8,9 +8,6 @@
      src: url('/Fonts/Cinzel-Regular.ttf') format('truetype');
  }
 
- body:not(h2) {
-     font-family: 'Cinzel-Regular';
- }
 
  .carre {
      position: absolute;
