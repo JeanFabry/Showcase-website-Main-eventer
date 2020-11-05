@@ -105,7 +105,7 @@
  .footer {
      margin-top: 8%;
      height: 250px;
-     background-image: url("swirl_pattern.png");
+     background-image: url("https://raw.githubusercontent.com/JeanFabry/main-eventer/master/assets/images/Images/swirl_pattern.png");
      display: flex;
      justify-content: center;
      align-items: center;
