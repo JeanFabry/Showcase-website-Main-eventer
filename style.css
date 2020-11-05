@@ -1,11 +1,11 @@
  @font-face {
      font-family: 'Comfortaa Regular';
-     src: url('/Fonts/Comfortaa-Regular.ttf') format('truetype');
+     src: url('https://github.com/JeanFabry/main-eventer/blob/master/assets/fonts/Fonts/Comfortaa-Regular.ttf') format('truetype');
  }
 
  @font-face {
      font-family: 'Cinzel-Regular';
-     src: url('/Fonts/Cinzel-Regular.ttf') format('truetype');
+     src: url('https://github.com/JeanFabry/main-eventer/blob/master/assets/fonts/Fonts/Cinzel-Regular.ttf') format('truetype');
  }
 
 
