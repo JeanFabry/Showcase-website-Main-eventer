@@ -59,13 +59,16 @@
 
 
 .banner-img {
+    height: 400px;
     object-fit: cover;
-    position: absolute;
+    position: relative;
     width:100%;
 }
 
 .conteneur {
-    height: 426px;
+    position: absolute;
+    top: 0;
+    height: 400px;
     width: 100%;
     background: black;
     opacity: 0.8;
