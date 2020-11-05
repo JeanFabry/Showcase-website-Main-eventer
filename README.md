@@ -4,7 +4,7 @@
 - Date : 03/10/2020 to 05/10/2020
   
 ## Origin
-:notebook_with_decorative_cover: 	[Instruction's link](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Field/3.HTML%2BCSS/4.main_eventer)
+:notebook_with_decorative_cover: [Instruction's link](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Field/3.HTML%2BCSS/4.main_eventer)
 
 ## What is it?
 
@@ -18,6 +18,9 @@ The goal of this exercise was to learn to work as a team and handle the needs of
 
 :white_check_mark: HTML5 <br> 
 :white_check_mark: CSS3
+
+## Organization
+:notebook_with_decorative_cover: [Trello](https://discord.com/channels/708408549704990732/773098391176609792/773931596272369766)
 
 ## Preview
 

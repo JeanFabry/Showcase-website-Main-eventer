@@ -14,13 +14,17 @@
      border: solid 3px white;
      width: 175px;
      margin-top: 1%;
-     margin-left: 21%;
+     /* margin-left: 21%; */
      background-color: #AF0102;
      color: white;
      font-size: 15px;
      padding-top: 5px;
      padding-left: 5px;
      padding-bottom: 5px;
+ }
+
+ p {
+     color: grey;
  }
 
  .descente {
@@ -33,46 +37,48 @@
  }
 
  .center img {
-     margin-left: 25%;
+     margin-left: 10%;
+     width: 100%;
  }
 
  .texte {
-     max-width: 25%;
+     /* max-width: 25%; */
      padding-top: 25px;
      margin-left: 40px;
  }
 
  .paragraphe {
-     padding-top: 35%;
+     padding-top: 7%;
      color: #A0A0A0;
  }
 
 
  .text2 {
      color: #A0A0A0;
-     margin-left: 25%;
-     margin-right: 30%;
+     margin-left: 10%;
+     /* margin-right: 30%; */
      text-align: justify;
      margin-top: 25px;
  }
 
 
 
-.banner-img {
-    height: 400px;
-    object-fit: cover;
-    position: relative;
-    width:100%;
-}
+ .banner-img {
+     height: 400px;
+     object-fit: cover;
+     position: relative;
+     width: 100%;
+ }
 
-.conteneur {
-    position: absolute;
-    top: 0;
-    height: 400px;
-    width: 100%;
-    background: black;
-    opacity: 0.8;
-}
+ .conteneur {
+     position: absolute;
+     top: 0;
+     height: 400px;
+     width: 100%;
+     background: black;
+     opacity: 0.8;
+     /* display: flex; */
+ }
 
 
  .nav {
@@ -89,14 +95,15 @@
  }
 
  .logo {
+     height: 320px;
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 8%;
+     /* margin-top: 8%; */
  }
 
  .footer {
-     margin-top: 50px;
+     margin-top: 8%;
      height: 250px;
      background-image: url("swirl_pattern.png");
      display: flex;
@@ -107,7 +114,8 @@
  }
 
  .text {
-     color: black;
+    display: flex; 
+    color: black;
      height: 70px;
      font-size: 40px;
 
@@ -135,6 +143,13 @@
 
  /*CONTAINER + CARDS */
 
+ .ourEvents {
+     margin-top: 3%;
+     /* display: flex;
+    flex-direction: column;
+    width:1000px */
+ }
+
  .container_ourEvents_cards {
      display: flex;
      flex-direction: row;
@@ -145,9 +160,16 @@
  .container_ourEvents_cards .card {
      display: flex;
      text-align: center;
+     justify-content: space-around;
      margin: 5%;
      border-radius: 0;
  }
+
+ /* .cardwidth {
+     max-width: 300px;
+ }
+
+ .card{ justify-content: space-around;} */
 
  .ourEvents_title {
      display: flex;
@@ -162,17 +184,20 @@
  }
 
  .card-headers {
-  padding: .75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: #b20c0d;
-  border-bottom: 1px solid rgba(0, 0, 0, .125)
-}
-.text-cardheader {
- color: #fff;
-}
+     padding: .75rem 1.25rem;
+     margin-bottom: 0;
+     background-color: #b20c0d;
+     border-bottom: 1px solid rgba(0, 0, 0, .125)
+ }
+
+ .text-cardheader {
+     color: #fff;
+     font-size: 25px;
+ }
+
  .ourEvents h2 {
      margin: auto 15%;
-}
+ }
 
  /* TITRES POUR TOUTE LA PAGE */
 
@@ -190,7 +215,7 @@
      margin: 0 auto;
      width: 80%;
      padding-top: 5px;
-     border-bottom: 3px solid #b20c0d;
+     border-bottom: 4px solid #b20c0d;
 
  }
 
@@ -201,11 +226,11 @@
      flex-direction: column;
      justify-content: space-between;
      align-items: center;
-     margin-top: 2%;
+     margin-top: 8%;
  }
 
  form {
-     width: 50%;
+     width: 85%;
      display: flex;
      flex-direction: column;
      justify-content: space-between;
@@ -226,11 +251,11 @@
 
  .details .form-length,
  .form-group .form-length {
-    border: 1px solid #AF0304;
+     border: 1px solid #AF0304;
      border-radius: 20px;
      display: list-item;
      height: 35px;
- } 
+ }
 
  .form-group .form-control {
      border-color: #AF0304;
@@ -244,8 +269,8 @@
  }
 
 
-button.roundCorners {
-    border-radius: 15px;
+ button.roundCorners {
+     border-radius: 15px;
      background-color: white;
      border: 2px solid #AF0304;
      color: #AF0304;
@@ -265,7 +290,7 @@ button.roundCorners {
  }
 
  .ourTeam {
-     margin-top: 3%;
+     margin-top: 8%;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -275,8 +300,8 @@ button.roundCorners {
      display: flex;
      flex-direction: row;
      justify-content: space-around;
-     margin-left: 7%;
-     margin-right: 7%;
+     /* margin-left: 7%;
+     margin-right: 7%; */
  }
 
  /* .manager p {
@@ -321,3 +346,186 @@ button.roundCorners {
      text-align: center;
  }
 
+ /* Media only for mobile*/
+ @media only screen and (max-width: 640px) {
+     .logo {
+         height: 140px;
+     }
+
+     .logo img {
+         width: 100px;
+     }
+
+     .banner-img {
+         height: 200px;
+     }
+
+     .conteneur {
+         height: 200px;
+         width: 100%;
+         background: black;
+         opacity: 0.8;
+         /* display: flex; */
+     }
+
+     .center {
+         display: flex;
+         text-align: justify;
+         flex-wrap: wrap;
+     }
+
+     .nav {
+         font-size: 12px;
+     }
+
+     .team {
+         margin-top: 8%;
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+     .manager img {
+         border-radius: 50%;
+         width: 220px;
+     }
+
+         .leftManagers,
+         .rightManagers {
+             margin: 0%;
+         }
+     .ourEvents {
+         margin: 8% 0;
+     }
+
+     .ourEvents h2 {
+         margin:auto 0% auto 8%;
+     }
+
+     .titles {
+        font-size: 25px;
+     }
+
+     .container_ourEvents_cards {
+         flex-wrap: wrap;
+         margin-top: 8%;
+     }
+
+     form .names {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .reseau {
+        max-width: 300px;
+        margin: 0;
+    }
+
+    .footer {
+        height: 150px;
+    }
+
+    .text {
+        font-size: 30px;
+        align-items: center;
+    }
+        }
+
+
+     /* Media only for Tablet*/
+     @media only screen and (min-width: 641px) and (max-width: 1007px) {
+        .logo {
+            height: 220px;
+        }
+   
+        .logo img {
+            width: 200px;
+        }
+   
+        .banner-img {
+            height: 300px;
+        }
+   
+        .conteneur {
+            height: 300px;
+            width: 100%;
+            background: black;
+            opacity: 0.8;
+            /* display: flex; */
+        }
+    
+        .center img {
+            margin:0 0 0 5%;
+        } 
+
+        .texte {
+            width:95%;
+        }
+
+        .text2 {
+            margin-left: 0;
+        }
+   
+        .nav {
+            font-size: 18px;
+        }
+   
+        .team {
+            margin-top: 8%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+   
+        .manager img {
+            border-radius: 50%;
+            width: 220px;
+        }
+   
+            .leftManagers,
+            .rightManagers {
+                margin: 0%;
+            }
+        .ourEvents {
+            margin: 8% 0;
+        }
+   
+        .ourEvents h2 {
+            margin:auto 0% auto 8%;
+        }
+   
+        .titles {
+           font-size: 25px;
+        }
+   
+        .container_ourEvents_cards {
+            flex-wrap: wrap;
+            margin-top: 8%;
+        }
+   
+        form .names {
+           display: flex;
+           justify-content: space-between;
+           flex-wrap: wrap;
+       }
+
+       .lastNameSpace {
+           margin-top: 3%;
+       }
+   
+       .reseau {
+           max-width: 300px;
+           margin: 0;
+       }
+   
+       .footer {
+           height: 150px;
+       }
+   
+       .text {
+           font-size: 30px;
+           align-items: center;
+       }
+     }
+
+     /* Media only for Larger screens*/
+     @media only screen and (min-width: 1008px) {}
