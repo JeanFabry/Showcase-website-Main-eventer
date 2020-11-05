@@ -3,8 +3,13 @@
      src: url('/Fonts/Comfortaa-Regular.ttf') format('truetype');
  }
 
- body * {
-     font-family: 'Comfortaa Regular';
+ @font-face {
+     font-family: 'Cinzel-Regular';
+     src: url('/Fonts/Cinzel-Regular.ttf') format('truetype');
+ }
+
+ body:not(h2) {
+     font-family: 'Cinzel-Regular';
  }
 
  .carre {
@@ -45,10 +50,6 @@
      color: #A0A0A0;
  }
 
- #who {
-     padding-top: 5%;
-     border-bottom: 3px solid #AF0102;
- }
 
  .text2 {
      color: #A0A0A0;
@@ -60,20 +61,18 @@
 
 
 
+.banner-img {
+    object-fit: cover;
+    position: absolute;
+    width:100%;
+}
 
-
- .conteneur {
-     background-image: url("header_Background.jpg");
-     min-height: 500px;
-     background-repeat: no-repeat;
-     background-size: cover;
-     /*filter: brightness(.16);   
-     background-image:
-    linear-gradient(black, rgba(0, 0, 0, 0.63)),
-    url("header_Background.jpg");
-  background-size: cover;
-  background-blend-mode: saturation;  */
- }
+.conteneur {
+    height: 426px;
+    width: 100%;
+    background: black;
+    opacity: 0.8;
+}
 
 
  .nav {
