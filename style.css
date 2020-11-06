@@ -356,6 +356,11 @@
          width: 100px;
      }
 
+     .ourEvents_title img {
+         display: none;
+         background-color: green;
+     }
+
      .banner-img {
          height: 200px;
      }
@@ -372,6 +377,7 @@
          display: flex;
          text-align: justify;
          flex-wrap: wrap;
+         margin:0;
      }
 
      .nav {
