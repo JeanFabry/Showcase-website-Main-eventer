@@ -23,8 +23,9 @@ The goal of this exercise was to learn to work as a team and handle the needs of
 :notebook_with_decorative_cover: [Trello](https://discord.com/channels/708408549704990732/773098391176609792/773931596272369766)
 
 ## Preview
+Have quick look at the website [here](https://jeanfabry.github.io/main-eventer/)
 
-![Preview](https://raw.githubusercontent.com/JeanFabry/main-eventer/master/assets/images/Images/preview%20website.png)
+[![Preview](https://raw.githubusercontent.com/JeanFabry/main-eventer/master/assets/images/Images/preview%20website.png)](https://jeanfabry.github.io/main-eventer/)
 
 
 *Made with Becode*
